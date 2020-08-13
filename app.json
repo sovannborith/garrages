@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Garrage_App",
+    "slug": "Garrage_App",
+    "version": "1.0.0",
+
+    "orientation": "default",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "androidNavigationBar": {
+      "visible": "immersive"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    }
+  }
+}
